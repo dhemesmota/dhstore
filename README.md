@@ -27,6 +27,8 @@ Loja simples desenvolvida em React.JS
 ### Executando a aplicação
 
 Primeirament instale as dependencias com o comando `yarn` ou `npm install`.
+<br/>
 Agora execute `yarn start` ou `npm run start`.
+<br/>
 Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
