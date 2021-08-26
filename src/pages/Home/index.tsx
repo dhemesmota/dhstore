@@ -28,7 +28,6 @@ export function Home() {
     api
       .get<IProduct[]>('/product', { cancelToken: source.token })
       .then((response) => {
-        console.log(response.data);
         setProducts(
           response.data.map((product) => {
             return {
@@ -42,9 +41,6 @@ export function Home() {
             };
           })
         );
-      })
-      .catch((error) => {
-        console.log(error);
       })
       .finally(() => {
         setLoading(false);
