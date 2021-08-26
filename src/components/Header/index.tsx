@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
   const location = useLocation();
-  console.log(location);
+
   return (
     <HStack
       position="fixed"
