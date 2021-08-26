@@ -1,7 +1,7 @@
 import { Box, Container } from '@chakra-ui/react';
 import { ReactNode } from 'react';
 
-import { Header } from '../components/Header';
+import { NavBar } from '../components/NavBar';
 
 interface IDefaultLayoutProps {
   children: ReactNode;
@@ -15,7 +15,7 @@ function DefaultLayout({ children }: IDefaultLayoutProps) {
       </Box>
 
       <Box>
-        <Header />
+        <NavBar />
       </Box>
     </Container>
   );

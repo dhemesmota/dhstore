@@ -2,7 +2,7 @@ import { HStack, Text } from '@chakra-ui/react';
 import { FiHome, FiShoppingCart } from 'react-icons/fi';
 import { Link, useLocation } from 'react-router-dom';
 
-function Header() {
+function NavBar() {
   const location = useLocation();
 
   return (
@@ -58,4 +58,4 @@ function Header() {
   );
 }
 
-export { Header };
+export { NavBar };
